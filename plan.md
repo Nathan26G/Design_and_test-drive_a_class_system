@@ -43,22 +43,23 @@ class Tyre():
         output: none
         side-effect: adds tyre tread depth to the tyre dict
     
-    {LF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    LR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025}}
+    {LF tyre: {pressure: 38psi, tread_depth: 5c},
+    RF tyre: {pressure: 38psi, tread_depth: 5cm},
+    LR tyre: {pressure: 38psi, tread_depth: 5cm},
+    RR tyre: {pressure: 38psi, tread_depth: 5cm}}
 
-    history = [
-    {LF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    LR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025}},
+    history = {11/12/2025:
+    {LF tyre: {pressure: 38psi, tread_depth: 5cm},
+    RF tyre: {pressure: 38psi, tread_depth: 5cm},
+    LR tyre: {pressure: 38psi, tread_depth: 5cm},
+    RR tyre: {pressure: 38psi, tread_depth: 5cm}},
     
-    {LF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RF tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    LR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025},
-    RR tyre: {pressure: 38psi, tread_depth: 5cm, date: 11/12/2025}}
-    ]
+    11/12/2025:
+    {LF tyre: {pressure: 38psi, tread_depth: 5cm},
+    RF tyre: {pressure: 38psi, tread_depth: 5cm},
+    LR tyre: {pressure: 38psi, tread_depth: 5cm},
+    RR tyre: {pressure: 38psi, tread_depth: 5cm}}
+    }
 
 ```
 
