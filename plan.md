@@ -61,11 +61,6 @@ class Tyre():
     RR tyre: {pressure: 38psi, tread_depth: 5cm}}
     }
 
-
-
-
-
-
 ```
 
 ## 3. Create Examples as Integration Tests
